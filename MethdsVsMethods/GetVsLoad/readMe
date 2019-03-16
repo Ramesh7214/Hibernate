@@ -1,0 +1,4 @@
+load() dont hit database when it is called. it create on dummy proxy object with provided identifier. remaining properties are empty.
+when we call any property with proxy (ex : emp.getXX()) then it hits the database. if record found return the object, else return exception
+
+get() directly hit the database and fetch the records, if record not found then return null

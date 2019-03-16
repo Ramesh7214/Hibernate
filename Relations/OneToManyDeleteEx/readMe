@@ -1,0 +1,9 @@
+one partent - Many Childs
+
+1) in the parent class, have to take list/set/bag of chile
+2) nothing to do in child class. but should have one property which holds parent primary values.
+
+3)in the mapping file of parent, have to take <Set> tag. withing <set> tag have to take <ontomay> tag
+4) normal mapping in child mapping file
+
+**must use cascade="all" property to save/delete/update the child records.

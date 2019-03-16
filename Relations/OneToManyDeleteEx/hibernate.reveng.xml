@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="DEPARTMENT" schema="HYDRA">
+		<primary-key>
+			<generator class="increment"></generator>
+			<key-column name="DEPT_ID" type="java.lang.Integer" />
+		</primary-key>
+	</table>
+	<table name="EMPLOYEE" schema="HYDRA">
+		<primary-key>
+			<generator class="increment"></generator>
+			<key-column name="EMP_ID" type="java.lang.Integer" />
+		</primary-key>
+		<column name="DEPT_ID" type="java.lang.Integer"></column>
+	</table>
+</hibernate-reverse-engineering>

@@ -1,0 +1,9 @@
+when we use premitive it saving 0 for int. 
+that mean default values are inserting
+to prevent it we have to use Warapers 
+
+in the example check the sal, it inserting 0. becuase in the pojo sal is int
+
+change int to Integer and insert new record and check the record. now it is empty
+
+in price case, it is big mistake

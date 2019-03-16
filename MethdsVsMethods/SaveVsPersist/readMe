@@ -1,0 +1,3 @@
+in case of "assigned" generator, der is no different between both the methods. because, it is programer responcibility to assign value
+
+in case of other generators, save return the hibernate generated ID, where persist return nothing (void)

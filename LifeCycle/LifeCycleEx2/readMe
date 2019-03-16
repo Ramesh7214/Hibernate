@@ -1,0 +1,4 @@
+detached to persistant EX
+
+1) save the object and close the session . now object is in detached state
+2) change any property in object and create new session and update the object. now object is in persistant state

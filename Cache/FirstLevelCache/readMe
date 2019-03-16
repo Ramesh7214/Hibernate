@@ -1,0 +1,8 @@
+1) fistlevel cache is session level cache
+2) it is default
+3)not possible to enable or disable. by default enabled
+
+evict(object) vs clear() :
+
+evict to remove perticulare object from cache
+clear to clear all the objects from cache

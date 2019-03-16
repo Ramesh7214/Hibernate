@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="ADDRESSS" schema="HYDRA">
+		<primary-key>
+			<key-column name="ADDRESS_ID" type="java.lang.Integer" />
+		</primary-key>
+	</table>
+	<table name="EMPLOYEE" schema="HYDRA">
+		<primary-key>
+			<key-column name="EMPLOYEE_ID" type="java.lang.Integer" />
+		</primary-key>
+		<column name="ADDRESS_ID" type="java.lang.Integer"></column>
+		<column name="EMPLOYEE_SAL" type="java.lang.Integer"></column>
+	</table>
+<table name="DEPARTMENT" schema="HYDRA">
+	<primary-key>
+		<key-column name="DEPT_ID" type="java.lang.Integer"/>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>

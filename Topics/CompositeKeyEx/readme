@@ -1,0 +1,3 @@
+if primary key is combination of multiple columns then it is called composite key.
+
+This example has both inserting and selection using composite key

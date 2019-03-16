@@ -1,0 +1,16 @@
+check the logic, we have saved only 3rd employee record, but it saved all the three employee records alogn with parent(Department) object.
+
+How ????????
+
+its all done by attribute inverse="true"
+
+inverse="true" indicates the hibernate that, object can save in any direction.
+
+before saving the employee 3, we have added all the three employee objects to Department.
+
+when we saved the thired employee, it tries to save parent object, as already all the childs mapped to parent, it goign to save all the 
+childs also.
+
+So, again no need to save other childs (even saving is wrong)
+
+it saves the internal operations

@@ -1,0 +1,4 @@
+If we delete child, parent will not deleted because, it may have lot of other child objects
+In many to one relationship, when ever a child object is deleted then its parent object is also deleted, '
+provided if  that parent object has no other child objects, means if parent has only one child, in this case if we delete child,
+ parent will also got deleted, but in all other cases it will throws exception

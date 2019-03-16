@@ -1,0 +1,15 @@
+
+steps to achieve :
+
+1) add version property in pojo
+2) add <version> tag in hbm
+
+thats it .
+
+note :
+
+1) first need to save 
+2) then have to update
+
+then only version number will increase
+

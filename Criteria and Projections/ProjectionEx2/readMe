@@ -1,0 +1,6 @@
+if we add two projections to Criteria then it take latest projections only
+that mean, first Projection overiden by second projection
+
+Solution : ProjectionList
+
+we have to add all the projections to ProjectionList first, then we have to add it Criteria

@@ -1,0 +1,6 @@
+Transient state : when we created new object. 
+Persistent state : when we saved it to database. till session cache cleared or session closed object will be in Persistent state . in this state
+one row should created in DB.
+Detached state : Session not associated with any Session. that mean, session cache cleared or session closed
+
+if we want Detached to Transient state , need to delete row from the database

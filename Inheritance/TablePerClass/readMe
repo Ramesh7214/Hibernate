@@ -1,0 +1,5 @@
+1) data saved in to only one table
+2) remember objects has the relation not tables
+3)here we must use one extra discriminator column in the database , if we dont use it, we will get exception
+4) disadvantage is memory wastage
+
